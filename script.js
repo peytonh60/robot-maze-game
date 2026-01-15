@@ -90,8 +90,8 @@ function checkWin() {
 }
 
 function restart() {
-  robotX = 50;
-  robotY = 50;
+  robotX = 80;
+  robotY = 80;
   robot.style.left = robotX + "px";
   robot.style.top = robotY + "px";
   winScreen.style.display = "none";
