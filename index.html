@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Robot Treasure Maze</title>
+</head>
+<body>
+  <div id="game">
+    <div id="robot">🤖</div>
+    <div id="treasure">💰</div>
+
+   <!-- Maze Walls -->
+
+<!-- Outer frame -->
+<div class="wall" style="left:50px; top:50px; width:800px; height:20px;"></div>
+<div class="wall" style="left:50px; top:50px; width:20px; height:500px;"></div>
+<div class="wall" style="left:50px; top:530px; width:800px; height:20px;"></div>
+<div class="wall" style="left:830px; top:50px; width:20px; height:500px;"></div>
+
+<!-- Inner maze -->
+<div class="wall" style="left:150px; top:150px; width:20px; height:215px;"></div>
+<div class="wall" style="left:150px; top:350px; width:300px; height:20px;"></div>
+
+<div class="wall" style="left:300px; top:150px; width:400px; height:20px;"></div>
+<div class="wall" style="left:300px; top:150px; width:20px; height:125px;"></div>
+
+<div class="wall" style="left:450px; top:250px; width:20px; height:200px;"></div>
+<div class="wall" style="left:200px; top:450px; width:400px; height:20px;"></div>
+
+<div class="wall" style="left:600px; top:150px; width:20px; height:220px;"></div> 
+<div class="wall" style="left:600px; top:350px; width:150px; height:20px;"></div>
+
+<div class="wall" style="left:730px; top:240px; width:20px; height:150px;"></div>
+
+<div class="wall" style="left:500px; top:450px; width:200px; height:20px;"></div>
+
+    <div id="winScreen">
+      <h1>🎉 You found the treasure!</h1>
+      <button onclick="restart()">Restart</button>
+    </div>
+  </div>
+
+  <div id="coords">X: 0.0 | Y: 0.0</div>
+  <script src="script.js"></script>
+
+</body>
+</html>
